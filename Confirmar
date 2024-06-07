@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cadastro Realizado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Cadastro Realizado!</h2>
+        <p>O cadastro do item foi realizado com sucesso.</p>
+        <button class="button" onclick="history.back()">Voltar</button>
+        <button class="button" onclick="location.href='cadastro.html'">Continuar Cadastrando</button>
+    </div>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            height: 400px;
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+        }
+
+        .button {
+            background-color: #39577f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #3454b3;
+        }
+    </style>
+</body>
+
+</html>
